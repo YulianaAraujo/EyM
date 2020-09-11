@@ -13,6 +13,9 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+    <!-- Scripts-->
+    <script src="./assets/js/print.js"></script>
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -53,7 +56,7 @@
           <li><a href="index.html">Home</a></li>
           <li class="active"><a href="./portfolio-details-inicial.html">Angie & Ayano</a></li>
           <li><a href="./yulianathing.html">Yuliana & Nicolas</a></li>
-          <li><a href="./requerimientos.html">Bryann</a></li>
+          <li><a href="./requerimientos.html">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
           <li class="drop-down"><a href="">Drop Down</a>
             <ul>
@@ -96,11 +99,11 @@
           <h2>Resumen del Plan de Proyecto</h2>
           <p>Inicial</p>
         </div>
-
+   
           <div class="col-lg-10 mt-5 mt-lg-0">
             
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              
+              <div id="print-area">  
               <table class="table">
                 <thead>
                   <tr>
@@ -241,12 +244,13 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your submission has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Submit</button></div>
-              
+
+            </div>
+              <div class="text-center"><button type="submit" onClick="printDiv('print-area')">Imprimir</button></div>
               
               
             </form>
-
+          
             <div class="row">
                  
               <div class="col">
