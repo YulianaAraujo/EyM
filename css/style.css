@@ -1,0 +1,64 @@
+H1, strong, th, td, legend, button{
+    font-family:"Raleway", sans-serif;
+}
+
+H1{
+    text-align: center;
+    font-size: 30px;
+}
+
+legend{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;  
+}
+
+th, td {
+    width: 10%;
+    text-align: center;
+    background: #fff;
+}
+
+ td{
+    border: 2px solid  #ffc451;
+    border-radius: 8px;
+    border-spacing: 0;
+}
+
+.Datos fieldset{
+    border: 2px solid #000000;
+    padding: 10px 0px 10px 40px;
+}
+
+.Datos input, select{
+    margin: 4px 50px 2px 0px;
+    border-radius: 5px;
+}
+
+.Datos .N,.NP,.NS{
+   width: 600px;
+}
+
+ fieldset{
+    margin: 3px;
+    padding: 2px 3px 10px 2px;
+    border: 2px solid #ffba31;;
+    border-radius: 8px;
+    border-spacing: 0;
+}
+
+.btn-sumit button{
+    background: #ffc451;
+    border: 0;
+    padding: 10px 24px;
+    color: #151515;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+button .noprint{
+    display: none;
+}
