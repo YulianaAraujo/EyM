@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fuentes -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Importando css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- Scripts para el bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Requerimientos</title>
+  </head>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top header-inner-pages">
+      <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo">
+          <a href="index.html">Gp<span>.</span></a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="./portfolio-details-inicial.html">Angie & Ayano</a>
+            </li>
+            <li><a href="./yulianathing.html">Yuliana & Nicolas</a></li>
+            <li class="active"><a href="./requerimientos.html">Bryann</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
+
+        <a href="#about" class="get-started-btn scrollto">Get Started</a>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <div class="container" style="padding-top: 5em">
+      <h1>Requerimientos</h1>
+      <form>
+        <!-- Identificador Nombre Tipo -->
+        <div class="form-row">
+          <!-- Identificador -->
+          <div class="form-group col-md-3">
+            <label for="inputIdentificador">Identificador</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputIdentificador"
+              placeholder="Jerarquizado: R1, R1.1, R1.1.1"
+            />
+          </div>
+          <!-- Nombre -->
+          <div class="form-group col-md-5">
+            <label for="inputNombre">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputNombre"
+              placeholder="Nombre (comenzar por un verbo)"
+            />
+          </div>
+          <!-- Tipo -->
+          <div class="form-group col-md-4">
+            <label for="inputTipo">Tipo</label>
+            <select id="inputTipo" class="form-control">
+              <option selected>Seleccionar...</option>
+              <option>Necesario</option>
+              <option>Deseable</option>
+            </select>
+          </div>
+        </div>
+        <!-- Requerimiento Critico Prioridad -->
+        <div class="form-row">
+          <!-- Requerimiento -->
+          <div class="form-group col-md-3">
+            <label for="inputReq">Requerimiento que lo utiliza</label>
+            <input type="text" class="form-control" id="inputReq" />
+          </div>
+          <!-- Critico -->
+          <div class="form-group col-md-5">
+            <label for="inputCritico">Crítico?</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputCritico"
+              placeholder="Requerimientos de eficiencia"
+            />
+          </div>
+          <!-- Prioridad -->
+          <div class="form-group col-md-4">
+            <label for="inputPrioridad">Prioridad</label>
+            <select id="inputPrioridad" class="form-control">
+              <option selected>Seleccionar...</option>
+              <option>0</option>
+              <option>1</option>
+            </select>
+          </div>
+        </div>
+        <!-- Documentos Entrada -->
+        <div class="form-row">
+          <!-- Documentos asociados -->
+          <div class="form-group col-md-5">
+            <label for="inputDocumentos">Documentos asociados</label>
+            <input type="file" class="form-control-file" id="inputDocumentos" />
+          </div>
+          <!-- Entrada -->
+          <div class="form-group col-md-7">
+            <label for="inputEntrada">Entrada</label>
+            <input type="text" class="form-control" id="inputEntrada" />
+          </div>
+        </div>
+        <!-- Salida Descripcion -->
+        <div class="form-row">
+          <!-- Salida -->
+          <div class="form-group col-md-6">
+            <label for="inputSalida">Salida</label>
+            <input type="text" class="form-control" id="inputSalida" />
+          </div>
+          <!-- Descripcion -->
+          <div class="form-group col-md-6">
+            <label for="inputDescripcion">Descripción</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputDescripcion"
+              placeholder="Precondición, Descripción, Postcondición"
+            />
+          </div>
+        </div>
+        <!-- Manejo de situaciones -->
+        <div class="form-group">
+          <label for="inputManejo">Manejo de situaciones anormales</label>
+          <textarea
+            class="form-control"
+            id="inputManejo"
+            rows="4"
+            placeholder="Describir cada situación anormal posible y el comportamiento asociado del sistema, con respecto a:
+            1.	Violaciones a la precondición
+            2.	Situaciones anormales con respecto a la utilización de recursos: espacio en disco, memoria, ...            "
+          ></textarea>
+        </div>
+        <!-- Final de formulario -->
+        <button type="button" class="btn btn-warning">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Finalizar</button>
+      </form>
+    </div>
+  </body>
+</html>
