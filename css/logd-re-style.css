@@ -1,0 +1,31 @@
+.container-logd {
+  padding: 80px 100px 80px;
+  border-bottom-color: red;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+body,
+.title,
+.container-logd {
+  font-family: "Raleway", sans-serif;
+  color: #151515;
+}
+
+label {
+  font-size: 14px;
+  font-style: bold;
+}
+
+#btn-enviar {
+  background: #ffc451;
+  border: 0;
+  padding: 10px 24px;
+  transition: 0.4s;
+  border-radius: 4px;
+  font-family: "Raleway", sans-serif;
+}

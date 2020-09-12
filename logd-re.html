@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LOGD - REGISTRO DE GRABACIONES DE ERRORES</title>
+    </head>
+    <link rel="stylesheet" href="css/logd-re-style.css">
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+        rel="stylesheet">
+
+    <body>
+        <div class="container-logd order border-warning">
+            <h1 class="title"><strong>LOGD- REGISTRO DE GRABACIONES DE ERRORES</strong></h1>
+            <form class="">
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label"><strong>ESTUDIANTE</strong></label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control"
+                            id="inputEmail3" placeholder="ESTUDIANTE">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label"><strong>FECHA</strong></label>
+                    <div class="col-sm-10">
+                        <input type="date" class="form-control"
+                            id="inputPassword3" placeholder="FECHA">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label"><strong>PROFESOR</strong></label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control"
+                            id="inputPassword3" placeholder="PROFESOR">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label"><strong>NO.
+                            PROGRAMA</strong></label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control"
+                            id="inputPassword3" placeholder="NO. PROGRAMA">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md text-center">
+                        <label for="validationDefault01">Fecha</label>
+                        <input type="date" class="form-control"
+                            id="validationDefault01" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Número</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Tipo</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores ingresados</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores eliminados</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Tiempo reparación</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores en reparación</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Descripción</label>
+                    <textarea class="form-control"
+                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="col-md text-center">
+                        <label for="validationDefault01">Fecha</label>
+                        <input type="date" class="form-control"
+                            id="validationDefault01" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Número</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Tipo</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores ingresados</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores eliminados</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Tiempo reparación</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores en reparación</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Descripción</label>
+                    <textarea class="form-control"
+                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="col-md text-center">
+                        <label for="validationDefault01">Fecha</label>
+                        <input type="date" class="form-control"
+                            id="validationDefault01" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Número</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Tipo</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores ingresados</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores eliminados</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Tiempo reparación</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="Last name"
+                            value="" required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores en reparación</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="Last name"
+                            value="" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Descripción</label>
+                    <textarea class="form-control"
+                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="col-md text-center">
+                        <label for="validationDefault01">Fecha</label>
+                        <input type="date" class="form-control"
+                            id="validationDefault01" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Número</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Tipo</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores ingresados</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores eliminados</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Tiempo reparación</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores en reparación</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Descripción</label>
+                    <textarea class="form-control"
+                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="col-md text-center">
+                        <label for="validationDefault01">Fecha</label>
+                        <input type="date" class="form-control"
+                            id="validationDefault01" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Número</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Tipo</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores ingresados</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores eliminados</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Tiempo reparación</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores en reparación</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Descripción</label>
+                    <textarea class="form-control"
+                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="col-md text-center">
+                        <label for="validationDefault01">Fecha</label>
+                        <input type="date" class="form-control"
+                            id="validationDefault01" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Número</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Tipo</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores ingresados</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores eliminados</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Tiempo reparación</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores en reparación</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Descripción</label>
+                    <textarea class="form-control"
+                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="col-md text-center">
+                        <label for="validationDefault01">Fecha</label>
+                        <input type="date" class="form-control"
+                            id="validationDefault01" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Número</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Tipo</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores ingresados</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores eliminados</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Tiempo reparación</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                    <div class="col-md text-center">
+                        <label for="validationDefault02">Errores en reparación</label>
+                        <input type="text" class="form-control"
+                            id="validationDefault02" placeholder="" value=""
+                            required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Descripción</label>
+                    <textarea class="form-control"
+                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn" id="btn-enviar">Enviar</button>
+            </form>
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
